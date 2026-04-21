@@ -10,6 +10,7 @@ git status
 git add my_first_file.txt
 git status
 git commit -m "Add my first file"
+git push
 ```
 
 ## Step-by-Step Explanation
@@ -30,3 +31,6 @@ git commit -m "Add my first file"
 * **`git commit -m "Add my first file"`**
   This is the final step of saving. It takes a permanent snapshot of everything you put into the staging area and saves it to your Git history. 
   The `-m` stands for message. You should always provide a short, descriptive message describing what you changed, so you and others can easily understand the history of your project later on.
+
+* **`git push`**
+  This command uploads your local commits (saved changes) to the remote repository on GitHub, making them visible to others and saving them to the cloud.
